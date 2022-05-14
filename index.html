@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='./assets/css/reset.css'>
+  <link rel='stylesheet' href='./assets/css/dark-theme.css' id="theme-link">
+  <!-- <link rel='stylesheet' href='./assets/css/dark-theme.css'> -->
+  <title>Portfolio Page | Jake Walsh</title>
+</head>
+<body>
+  <header id='header'>
+    <!-- My Name -->
+    <div id='my-name-label-border'>
+      <div id='my-name-label'>
+        <h1 id='my-name'><a href='#hero' id="name-tag">Jake Walsh</a></h1>
+      </div>
+    </div>
+    <!-- site navigation -->
+    <nav>
+      <ul id='nav-ul'>
+        <li id='nav-about'><a href='#about-me'>About Me</a></li>
+        <li id='nav-work'><a href='#my-work'>My Work</a></li>
+        <li id='nav-contact'><a href='#contact-me'>Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ----------------- -->
+  <!-- hero section -->
+  <section id='hero'>
+    <img id='hero-image' src='./assets/images/patch1.jpeg' alt='background banner of my personal garden'/>
+    <!-- secondary header -->
+    <div id='hero-div'>
+      <div id='hero-text-div'>
+        <h2 id='hero-head'>Welcome to my portfolio page</h2> 
+        <p id='hero-p'>Here you can read a little about myself, check out some of<br>my past projects, and find my resume, contact info, and networking links.<br>Thank you for visiting!</p>
+      </div>
+    </div>
+  </section>
+  <!-- ----------------- -->
+  <!-- 'about me' section -->
+  <section id='about-me'>
+    <article>
+      <h3 id='about-me-header'>About me</h3>
+      <hr>
+      <p>As a programming hobbyist, I have spent a few years building numerous scripts for algorithmic stock trading that are capable of sending automated trades to stock exchanges, as well as chart indicators to assist in interpreting market fluctuations. More recently I have been working on building my full-stack skills in order to start a career in computer programming.</p>
+      <p>I received a B.S. in biochemistry from UC Davis and have spent 4+ years as an aircraft structural mechanic for the California National Guard. On my free-time, I enjoy activities like camping, backpacking, fishing, vegetable gardening, woodworking, and of course, spending time with family and friends.</p>
+    </article>
+    <img id='self-portrait' src='./assets/images/portrait.jpeg' alt='My self-portrait'>
+  </section>
+  <!-- ----------------- -->
+  <!-- 'my work' section -->
+  <section id='my-work'>
+    <h3 id='my-work-header'>My Work</h3>
+    <hr class='hr-full'>
+    <!-- Trading section -->
+    <section class='work-section-container'>
+      <div class='work-group-label-container'>
+        <h4 class='work-label'>Asset</h4>
+        <h4 class='work-label'>Trading</h4>
+        <h4 class='work-label'>Applications</h4>
+      </div>
+      <article class='work-card-large'>
+        <a href='https://www.tradingview.com/script/4l7Zul9z-GTI-B/' target='_blank'>
+          <h4 id='tradingview-head'>Stock Chart Indicator</h4>
+          <img src='./assets/images/tradingview.png' id='tradingview-img' alt='placeholder image for stock chart indicator'>
+        </a>
+      </article> 
+    </section>
+    <!-- Website section -->
+    <section class='work-section-container'>
+      <div class='work-group-label-container'>
+        <h4 class='work-label'>Websites</h4>
+      </div>
+      <article class='work-card'>
+        <a href='https://jvbridge.github.io/sbs-email-verification/' target='_blank'>
+          <h4 id='sbs-head'>SBS email verification</h4>
+          <img src='./assets/images/sbs.png' id='sbs-img' alt='placeholder image for sbs website'>
+        </a>     
+        <a href='https://github.com/jvbridge/sbs-email-verification' target='_blank'>
+          <h5 class='repo'>GitHub Repository</h5>  
+        </a>           
+      </article>
+    </section>
+    <!-- Utility Apps section -->
+    <section class='work-section-container'>
+      <div class='work-group-label-container'>
+        <h4 class='work-label'>Utility Apps</h4>
+      </div>
+      <article class='work-card'>
+        <a href='https://jkwalsh127.github.io/weather-dashboard/' target='_blank'>
+          <h4 id='weather-dashboard-head'>Weather Dashboard</h4>
+          <img src='./assets/images/weather-dashboard.png' id='weather-dashboard-img' alt='placeholder image for the weather dashboard site'>
+        </a> 
+        <a href='https://github.com/jkwalsh127/weather-dashboard' target='_blank'>
+          <h5 class='repo'>GitHub Repository</h5>  
+        </a>               
+      </article>
+    </section>
+  </section>
+  <!-- ------------------ -->
+  <!-- contact me section -->
+  <section id='contact-me'>
+    <h3 id='contact-me-header'>Contact Me</h3>
+    <hr class='hr-full'>
+    <ul id='contact-ul'>
+      <li><a id='resume' href='./assets/files/Resume.pdf' download='jake-walsh-resume' target='_blank'>My Resume</a></li>
+      <li>(415) 506-9317</li>
+      <li><a href='mailto:jkwalsh127@gmail.com' target='_blank'>jkwalsh127@gmail.com</a></li>
+      <li  class='contact-link'>
+        <a href='https://www.linkedin.com/in/jake--walsh/' target='_blank'>
+          <img class='social-logo' src='./assets/images/linkedin.png'>LinkedIn
+        </a>
+      </li>                
+      <li  class='contact-link'>
+        <a href='https://github.com/jkwalsh127' target='_blank'>
+          <img class='social-logo' src='./assets/images/github.png'>GitHub
+        </a>
+      </li>            
+    </ul>
+  </section>
+  <footer></footer>
+  <script src='./assets/js/theme-toggle.js'></script>
+  <script src='./assets/js/script.js'></script>
+</body>
+</html>
