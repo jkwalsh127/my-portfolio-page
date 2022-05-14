@@ -46,6 +46,11 @@ hr {
     color: var(--drk-beige);
     filter: drop-shadow(0 0 0.65rem rgb(206, 150, 18));
 }
+.hr-full {
+    width: 95%;
+    float: left;
+    margin: 0 0 5px 0;
+}
 
 /* Set google fonts */
 /* headers */
@@ -222,6 +227,7 @@ nav li {
     line-height: 130%;
     font-size: 1.2em;
     text-indent: 50px;
+    padding: 10px 20px 0 10px;
 }
 
 /* Self-portrait */
@@ -235,22 +241,22 @@ nav li {
 
 /*  */
 /*  */
-/* 'My Work' section universals */
+/* 'My Work' */
+/*  */
+/* section universals */
 #my-work {
     overflow: overlay;
     width: 100%;
     background-color: var(--background-gray);
 }
 #my-work-header {
-    width: 95%;
-    margin: 100px 0 20px 5%;
+    width: 140px;
+    margin: 100px 0 20px 0;
     font-size: 2em;
+    border-bottom: 2px solid var(--text-white);
+    padding: 0 0 5px 5%;
 }
-.hr-full {
-    width: 95%;
-    float: left;
-    margin: 0 0 5px 0;
-}
+
 .work-section-container {
     width: 100%;
     margin: 40px 0 0 0;
@@ -268,6 +274,7 @@ nav li {
     background-color: var(--card-background);
     border-radius: 10px;
     filter: drop-shadow(0 0 0.65rem rgb(40, 40, 40));
+    padding: 5px;
 }
 /* regular card */
 .work-card {
@@ -279,6 +286,7 @@ nav li {
     background-color: var(--card-background);
     border-radius: 10px;
     filter: drop-shadow(0 0 0.65rem rgb(40, 40, 40));
+    padding: 5px;
 }
 .work-group-label-container {
     height: fill;
@@ -290,6 +298,7 @@ nav li {
     min-width: 195px;
     margin: 0 0 0 0px;
     border-radius: 0 10px 10px 0;
+    padding: 10px 5px 0 0;
 }
 .work-label {
     margin: 10px 10px 0 10px;
