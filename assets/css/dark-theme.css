@@ -264,6 +264,11 @@ nav li {
     align-content: space-between;
     height: fit-content;
 }
+.technologies-div {
+    display: flex;
+    align-items: center;
+}
+
 /* large card */
 .work-card-large {
     width: 40%;
@@ -358,6 +363,17 @@ nav li {
     padding: 15px 20px 15px 20px;
     color: var(--text-white);
     line-height: 110%;
+}
+#technologies-indicator {
+    color: var(--drk-beige);
+    padding: 0px 5px 15px 50px;
+    text-align:start;
+}
+#pine-script-img {
+    width: 130px;
+    opacity: .6;
+    border-radius: 5px;
+    margin: 0 50px 10px 0;
 }
 /*  */
 /*  */
