@@ -235,7 +235,7 @@ nav li {
     width: 400px;
     height:400px;
     object-fit: cover;
-    margin-right: 20px;
+    margin: 90px 20px 0 0;
     border-radius: 10px;
 }
 
@@ -264,6 +264,11 @@ nav li {
     align-content: space-between;
     height: fit-content;
 }
+.work-section-work-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
 .technologies-div {
     display: flex;
     align-items: center;
@@ -271,8 +276,8 @@ nav li {
 
 /* large card */
 .work-card-large {
-    width: 40%;
-    margin: 0 0 0 5%;
+    width: 45%;
+    margin: 0 0 20px 5%;
     overflow: hidden;
     height: fit-content;
     text-align: center;
@@ -283,8 +288,8 @@ nav li {
 }
 /* regular card */
 .work-card {
-    width: 30%;
-    margin: 0 0 0 5%;
+    width: 35%;
+    margin: 0 30px 20px 5%;
     overflow: hidden;
     height: fit-content;
     text-align: center;
@@ -324,7 +329,16 @@ nav li {
 .card-description {
     padding: 5px 15px 15px 15px;;
     color: var(--text-white);
-    line-height: 110%;
+    line-height: 130%;
+}
+.technologies-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 30px;
+    width: fit-content;
+    justify-self: center;
 }
 /*  */
 /*  */
@@ -362,7 +376,7 @@ nav li {
 #card-description-no-repo {
     padding: 15px 20px 15px 20px;
     color: var(--text-white);
-    line-height: 110%;
+    line-height: 140%;
 }
 #technologies-indicator {
     color: var(--drk-beige);
@@ -406,6 +420,40 @@ nav li {
     margin: 5px 0 0 0;
 }
 #sbs-img:hover {
+    opacity: .8;
+}
+#technologies-sbs {
+    color: var(--drk-beige);
+    padding: 0px 10px 15px 20px;
+    text-align: start;
+    width:400px;
+}
+.technologies-div-sbs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.sbs-badge {
+    width: fit-content;
+    padding: 5px 0;
+    opacity: .8;
+}
+
+.technologies-div-gitpro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 10px 10px 10px;;
+}
+.gitpro-badge {
+    width: fit-content;
+    padding: 5px 5px;
+    opacity: .8;
+}
+.gitpro-badge-handlebars {
+    width: 120px;
+    padding: 5px 0;
     opacity: .8;
 }
 /*  */
