@@ -12,6 +12,8 @@ As one of my first programming projects, this web page is hard-coded, plain HTML
 ## Usage
 Click <a href="https://fierce-reef-46335.herokuapp.com/" target="_blank">**here**<a> to visit my deployed portfolio page!
 
+![site-demo](https://user-images.githubusercontent.com/101354032/168465908-ce77df1e-7c13-4953-90eb-98f06289ec5a.gif)
+ 
 ### Credits
 I was originally prompted to build this page at the UC Berkeley Extension coding bootcamp, so credit and thanks are owed to the faculty and staff.
 
