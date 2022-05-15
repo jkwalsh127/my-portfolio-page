@@ -329,17 +329,17 @@ nav li {
     color: var(--text-white);
     width: 100%;
     height: fit-content;
-    padding: 10px 0 0 0;
+    padding: 0 0 5px 0;
     border-bottom: 2px solid var(--card-underline);   
     width: fit-content; 
-    margin: 0 auto 5px auto;
+    margin: 0 auto 15px auto;
 }
 .repo:hover {
     color: var(--drk-beige);
     transition: .3s;
 }
 .card-description {
-    padding: 5px 15px 15px 15px;;
+    padding: 15px 15px 15px 15px;;
     color: var(--text-white);
     line-height: 130%;
 }
