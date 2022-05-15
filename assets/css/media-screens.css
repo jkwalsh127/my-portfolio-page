@@ -50,11 +50,11 @@
         padding: 30px 25px 5px 25px;
     }
     .work-card-large {
-        width: 60%;
-        margin: 0 0 0 5%;
+        width: 80%;
+        margin: 0 0 20px 5%;
     }
     .work-card {
-        width: 60%;
+        width: 80%;
         margin: 0 0 0 5%;
     }
 }
@@ -64,11 +64,11 @@
         top: 420px;
     }
     .work-card-large {
-        width: 60%;
-        margin: 0 0 0 5%;
+        width: 90%;
+        margin: 0 0 20px 5%;
     }
     .work-card {
-        width: 60%;
+        width: 90%;
         margin: 0 0 0 5%;
     }
 }
@@ -109,6 +109,14 @@
     #about-me-head {
         margin: 50px 0 20px 5%;
     }
+    #about-me-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about-me {
+        width: 80%;
+        margin: 0;
+    }
     #my-work-header {
         margin: 50px 0 20px 0;
     }
@@ -125,7 +133,7 @@
         align-content: flex-end;
     }
     #self-portrait {
-        display: none;
+        margin: 10px 0;
     }
     #contact-ul {
         margin: 0 1%;
@@ -162,6 +170,9 @@
         align-content: center;
         margin: 0;
     }
+    .work-section-work-container {
+        justify-content: center;
+    }
     .work-label {
         font-size: 20px;
         margin: 10px 10px 0 0;
@@ -170,13 +181,14 @@
         width: 80%;
         min-width: 300px;
         align-self: center;
-        margin: 0;
+        justify-self: center;
+        margin: 20px 0 0 0;
     }
     .work-card {
         width: 80%;
         min-width: 300px;
         align-self: center;
-        margin: 0;
+        margin: 20px 0 0 0;
     }
     #my-work-header {
         margin: 50px 0 20px 0;
@@ -193,6 +205,12 @@
         flex-direction: column;
         height: 200px;
         width: 100%;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
+    }
+    #contact-ul {
+        height: 250px;
     }
 }
 
@@ -256,7 +274,7 @@
         height: 500px;
     }
     .work-group-label-container {
-        width: 120px;
+        width: 240px;
         min-width: 120px;
     }
     .work-label {
@@ -266,7 +284,6 @@
     #contact-me {
         overflow: overlay;
         width: 100%;
-        background-color: var(--background-black);
     }
     #contact-ul {
         font-size: 100%;
@@ -276,6 +293,13 @@
         flex-direction: column;
         height: 200px;
         width: 100%;
+        margin: 0 0 10px 0;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
+    }
+    #tradingview-head {
+        height: fit-content;
     }
 }
 
@@ -287,12 +311,14 @@
         font-size: 16px;;
     }
     #about-me {
-        height: 650px;
         align-items: flex-start;
     }
 
     #contact-ul {
         margin: 0;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
     }
 }
 
@@ -304,10 +330,27 @@
 
 @media screen and (max-width: 390px) {
     #about-me {
-        height: 700px;
     }
     #hero-div {
         top: 250px;
+    }
+    #technologies-indicator {
+        padding: 0 5px 15px 10px;
+    }
+    #pine-script-img {
+        margin: 0 10px 10px 0;
+    }
+    #nav-about {
+        padding: 15px 0 0 5px;
+    }
+    #nav-work {
+        padding: 15px 0 0 5px;
+    }
+    #nav-contact {
+        padding: 15px 0 0 5px;
+    }
+    #about-me-wrap p {
+        padding: 10px 0 0 0;
     }
 }
 
@@ -318,4 +361,5 @@
     #tradingview-head {
         font-size: 25px;
     }
+
 }

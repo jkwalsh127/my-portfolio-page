@@ -277,7 +277,7 @@ nav li {
 /* large card */
 .work-card-large {
     width: 45%;
-    margin: 0 0 20px 5%;
+    margin: 0 0 0 5%;
     overflow: hidden;
     height: fit-content;
     text-align: center;
