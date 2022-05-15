@@ -10,7 +10,7 @@ This webpage is where I take a little bit of time to describe myself, showcase s
 As one of my first programming projects, this web page is hard-coded, plain HTML and CSS, and sprinkled on top with a little JavaScript. I enjoy the nostalgia of keeping this page in such a state. Coming back to update it periodically has been a nice exercise in maintaining my skills with the old HTML/CSS duo.
 
 ## Usage
-Click <a href="https://fierce-reef-46335.herokuapp.com/" target="_blank">**here**<a> to visit my deployed portfolio page!
+Click <a href="https://jkwalsh127.github.io/my-portfolio-page/" target="_blank">**here**<a> to visit my deployed portfolio page!
 
 ![site-demo](https://user-images.githubusercontent.com/101354032/168465908-ce77df1e-7c13-4953-90eb-98f06289ec5a.gif)
  
