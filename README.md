@@ -5,7 +5,7 @@
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
 
 ## Usage
-Click <a href="https://fierce-reef-46335.herokuapp.com/" target="_blank">**here**<a> to visit my deployed portfolio page!
+Click <a href="https://jkwalsh127.github.io/my-portfolio-page/" target="_blank">**here**<a> to visit my deployed portfolio page!
 
 ## Description
 
