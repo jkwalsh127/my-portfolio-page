@@ -21,7 +21,7 @@ if (w >= 1020) {
       document.getElementById("nav-about").style.padding = "8px";
       document.getElementById("nav-work").style.padding = "8px";
       document.getElementById("nav-contact").style.padding = "8px";
-      document.getElementById("header").style.backgroundColor = "rgb(0, 0, 0, 0.9";
+      document.getElementById("header").style.backgroundColor = "#2a303c";
     } else {
       document.getElementById("my-name").style.fontSize = "400%";
       document.getElementById("my-name-label-border").style.height = "74px";
