@@ -16,6 +16,7 @@
     --text-white:#a6adba;
     --card-background: #2a303c;
     --hero-text-div-bg: #2a303ccf;
+    --header-bg: #2a303c41;
 }
 
 * {
@@ -68,7 +69,7 @@ hr {
 #header {
     height: 74px;
     width: 100%;
-    background-color: var(--hero-text-div-bg);
+    background-color: var(--header-bg);
     display: flex;
     justify-content: space-between;
     padding: 30px 10px 15px 0;

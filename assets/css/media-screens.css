@@ -27,6 +27,7 @@
     #header {
         padding: 0 10px 0 0;
         height: 74px;
+        background-color: var(--card-background);
     }
     #my-name-label-border {
         height: 38px;
@@ -61,7 +62,7 @@
     }
     .work-card {
         width: 80%;
-        margin: 0 0 0 5%;
+        margin: 0 0 20px 5%;
     }
 }
 
@@ -75,7 +76,7 @@
     }
     .work-card {
         width: 90%;
-        margin: 0 0 0 5%;
+        margin: 0 0 20px 5%;
     }
 }
 
@@ -172,16 +173,21 @@
     }
     .work-group-label-container {
         width: 100%;
+        border: none;
+        border-radius: 0;
+        padding: 0;
         height: 50px;
         align-content: center;
+        justify-content: center;
         margin: 0;
+        flex-direction: row;
     }
     .work-section-work-container {
         justify-content: center;
     }
     .work-label {
         font-size: 20px;
-        margin: 10px 10px 0 0;
+        margin: 0 5px 0 0;
     }
     .work-card-large {
         width: 80%;
@@ -273,19 +279,18 @@
         font-size: 120%;
         align-self: center;
         line-height: 130%;
-        padding-top: 20px;
         margin: 0;
     }
     #about-me article {
         height: 500px;
     }
     .work-group-label-container {
-        width: 240px;
-        min-width: 120px;
+        width: 100%;
+        border-radius: 0;
     }
     .work-label {
         font-size: 20px;
-        margin: 10px 10px 0 0;
+        margin: 0 5px 0 0;
     }
     #contact-me {
         overflow: overlay;
@@ -332,6 +337,12 @@
     #hero-div {
         top: 250px;
     }
+    #hero-p {
+        padding: 0 40px;
+    }
+    #self-portrait {
+        margin: 0 0 10px 0;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -367,5 +378,13 @@
     #tradingview-head {
         font-size: 25px;
     }
-
+    #nav-about {
+        font-size: 10px;
+    }
+    #nav-work {
+        font-size: 10px;
+    }
+    #nav-contact {
+        font-size: 10px;
+    }
 }
