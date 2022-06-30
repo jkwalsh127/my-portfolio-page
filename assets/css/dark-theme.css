@@ -310,12 +310,11 @@ nav li {
 }
 .work-group-label-container {
     height: fill;
-    width: 15%;
     border-right: 1px solid gray;
     background-color: var(--card-background);
     display: flex;
     flex-direction: column;
-    min-width: 195px;
+    min-width: 130px;
     margin: 0 0 0 0px;
     border-radius: 0 10px 10px 0;
     padding: 10px 5px 0 0;
@@ -323,7 +322,7 @@ nav li {
 .work-label {
     margin: 10px 10px 0 10px;
     align-self: flex-end;
-    font-size: 30px;
+    font-size: 20px;
 }
 .repo {
     font-size: 120%;
@@ -343,6 +342,7 @@ nav li {
     padding: 15px 15px 15px 15px;;
     color: var(--text-white);
     line-height: 130%;
+    text-align: left;
 }
 .technologies-list {
     display: flex;
@@ -389,6 +389,7 @@ nav li {
     padding: 15px 20px 15px 20px;
     color: var(--text-white);
     line-height: 140%;
+    text-align: left;
 }
 #technologies-indicator {
     color: var(--drk-beige);
