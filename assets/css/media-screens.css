@@ -346,8 +346,6 @@
 }
 
 @media screen and (max-width: 390px) {
-    #about-me {
-    }
     #hero-div {
         top: 250px;
     }
