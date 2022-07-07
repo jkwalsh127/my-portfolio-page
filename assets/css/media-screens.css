@@ -56,6 +56,10 @@
     #nav-contact {
         padding: 30px 25px 5px 25px;
     }
+    .work-card-bot {
+        width: 80%;
+        margin: 0 0 20px 5%;
+    }
     .work-card-large {
         width: 80%;
         margin: 0 0 20px 5%;
@@ -69,6 +73,10 @@
 @media screen and (max-width: 824px) {
     #hero-div {
         top: 420px;
+    }
+    .work-card-bot {
+        width: 90%;
+        margin: 0 0 20px 5%;
     }
     .work-card-large {
         width: 90%;
@@ -188,6 +196,13 @@
     .work-label {
         font-size: 20px;
         margin: 0 5px 0 0;
+    }
+    .work-card-bot {
+        width: 80%;
+        min-width: 300px;
+        align-self: center;
+        justify-self: center;
+        margin: 20px 0 0 0;
     }
     .work-card-large {
         width: 80%;
